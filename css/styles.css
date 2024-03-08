@@ -1,3 +1,12 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
 body{
  font-family: "Roboto", sans-serif;
 color: #434455;
@@ -10,12 +19,13 @@ text-decoration: none;
 ul, ol {
 list-style: none;
 padding: 0;
-padding: 0;
+margin: 0;
 }
+a 
 .container {
     width: 1158px;
     padding: 0 15px;
-    margin: 0;
+    margin: 0 auto;
 }
 .header {
     border-bottom: 1px solid  #E7E9FC;
@@ -81,16 +91,23 @@ color: #434455;
 /* ========main======= */
 .hero {
 background-color: #2e2f42;
-width: 1440px;
-height: 600px;
+padding: 188px 0;
+}
+.hero-wrap {
+
 }
 .hero-title {
+    margin-bottom: 48px;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-padding: 188px 472px 292px 472px;
+max-width: 496px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 188px;
+
 }
 .hero-buy-btn {
 background: #4d5ae5;
@@ -104,6 +121,9 @@ border: none;
 padding: 16px 32px;
 border-radius: 4px;
 gap: 10px;
+margin: 0 auto;
+display: block;
+
 }
 .hero-buy-btn:hover,
 .hero-buy-btn:focus {
@@ -111,10 +131,16 @@ gap: 10px;
 }
 /*========strategy=========*/
 .strategy {
+    padding-top: 125px;
+    padding-bottom: 115px;
 }
 .strategy-list {
+    display: flex;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 .strategy-item {
+    width: calc((100% - 3 * 24px) / 4);
 }
 .strategy-subtitle {
 font-weight: 500;
@@ -122,6 +148,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 24px;
 }
 .strategy-item-text {
 font-size: 16px;
