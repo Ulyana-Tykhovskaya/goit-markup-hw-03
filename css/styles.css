@@ -191,6 +191,8 @@ color: #434455;
 .team-list-item {
     display: flex;
    background-color: #ffffff;
+   width: calc((100% - 24px * 3) / 4);
+   display: inline;
    
 }
 .portfolio {
