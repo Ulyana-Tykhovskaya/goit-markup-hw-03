@@ -196,6 +196,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 8px;
 ;
 }
 .team-text {
@@ -255,11 +256,10 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.produkt {
-    border-top: none;
-    margin-bottom: 8px;
+.portfolio-app {
     padding: 32px 16px;
-border: 1px solid #e7e9fc;
+    margin-bottom: 8px;
+    border: 1px solid #e7e9fc; 
 }
 .footer {
 background-color: #2e2f42;
