@@ -247,8 +247,6 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-padding: 32px 16px;
-border: 1px solid #e7e9fc;
 }
 .portfolio-text {
     font-family: "Roboto", sans-serif;
@@ -260,6 +258,8 @@ border: 1px solid #e7e9fc;
 .produkt {
     border-top: none;
     margin-bottom: 8px;
+    padding: 32px 16px;
+border: 1px solid #e7e9fc;
 }
 .footer {
 background-color: #2e2f42;
