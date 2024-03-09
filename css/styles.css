@@ -247,7 +247,6 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-padding: 100, 1169, 188, 156;
 }
 .logo-partt {
 color: #f4f4fd;
@@ -258,6 +257,5 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 width: 264px;
-height: 72px;
-padding: 140, 1020, 100, 156;
+padding: 100px 0;
 }
