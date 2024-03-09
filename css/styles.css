@@ -173,7 +173,7 @@ color: #434455;
 /*======Team======*/
 .team {
     background-color: #f4f4fd;
-
+padding: 120px 0;
 }
 .team-title {
 margin-bottom: 72px;
@@ -206,11 +206,14 @@ text-align: center;
 color: #434455;
 }
 .team-list-item {
-    display: flex;
    background-color: #ffffff;
    width: calc((100% - 24px * 3) / 4);
-   display: inline;
    border-radius: 0px 0px 4px 4px;
+}
+.teacher {
+    padding: 32px 0;
+    margin-bottom: 8px;
+    text-align: center;
 }
 .portfolio {
     padding-top: 120px;
