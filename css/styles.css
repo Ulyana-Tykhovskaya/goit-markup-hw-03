@@ -162,6 +162,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 .strategy-item-text {
 font-size: 16px;
@@ -195,6 +196,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 8px;
 ;
 }
 .team-text {
@@ -246,6 +248,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 .portfolio-text {
     font-family: "Roboto", sans-serif;
@@ -273,6 +276,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 display: inline-block;
+margin-bottom: 16px;
 }
 .logo-partt {
 color: #f4f4fd;
